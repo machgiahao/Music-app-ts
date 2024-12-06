@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        // "outDir": "js", // biên dịch vào thư mục js
+        "target": "ES6",
+        "module": "commonjs",
+        "removeComments": true, // Remove cmt when translation into index.js
+        "esModuleInterop": true, // Can use keyword "import" instead of required
+        "outDir": "dist" // Compile into dist folder
+    }
+}
